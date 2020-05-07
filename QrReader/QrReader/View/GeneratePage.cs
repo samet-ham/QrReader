@@ -20,7 +20,7 @@ namespace QrReader.View
             };
 
             barcode.BarcodeFormat = ZXing.BarcodeFormat.QR_CODE;
-            barcode.BarcodeValue = "http://www.xamarintr.com";
+            barcode.BarcodeValue = "http://www.hostkod.com";
 
             Content = barcode;
         }
